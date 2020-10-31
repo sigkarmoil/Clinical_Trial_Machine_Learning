@@ -1,0 +1,255 @@
+{
+  "StudyFieldsResponse":{
+    "APIVrs":"1.01.02",
+    "DataVrs":"2020:10:29 23:23:51.450",
+    "Expression":"United States",
+    "NStudiesAvail":356282,
+    "NStudiesFound":138977,
+    "MinRank":1,
+    "MaxRank":4,
+    "NStudiesReturned":4,
+    "FieldList":[
+      "NCTId",
+      "ConditionAncestorTerm",
+      "ConditionBrowseBranchAbbrev",
+      "ConditionBrowseBranchName",
+      "ConditionBrowseLeafAsFound",
+      "ConditionBrowseLeafId",
+      "ConditionBrowseLeafName",
+      "ConditionBrowseLeafRelevance",
+      "ConditionMeshId",
+      "ConditionMeshTerm",
+      "DelayedPosting",
+      "DesignAllocation",
+      "DesignInterventionModel",
+      "DesignInterventionModelDescription",
+      "DesignMasking",
+      "DesignMaskingDescription",
+      "DesignObservationalModel",
+      "DesignPrimaryPurpose",
+      "DesignTimePerspective",
+      "DesignWhoMasked"
+    ],
+    "StudyFields":[
+      {
+        "Rank":1,
+        "NCTId":[
+          "NCT04371159"
+        ],
+        "ConditionAncestorTerm":[
+          "Infection",
+          "Urologic Diseases"
+        ],
+        "ConditionBrowseBranchAbbrev":[
+          "BC01",
+          "All",
+          "BXS"
+        ],
+        "ConditionBrowseBranchName":[
+          "Bacterial and Fungal Diseases",
+          "All Conditions",
+          "Urinary Tract, Sexual Organs, and Pregnancy Conditions"
+        ],
+        "ConditionBrowseLeafAsFound":[
+          "Urinary Tract Infections"
+        ],
+        "ConditionBrowseLeafId":[
+          "M8866",
+          "M4951",
+          "M15885",
+          "M15902"
+        ],
+        "ConditionBrowseLeafName":[
+          "Infection",
+          "Communicable Diseases",
+          "Urinary Tract Infections",
+          "Urologic Diseases"
+        ],
+        "ConditionBrowseLeafRelevance":[
+          "low",
+          "low",
+          "high",
+          "low"
+        ],
+        "ConditionMeshId":[
+          "D000014552"
+        ],
+        "ConditionMeshTerm":[
+          "Urinary Tract Infections"
+        ],
+        "DelayedPosting":[],
+        "DesignAllocation":[
+          "N/A"
+        ],
+        "DesignInterventionModel":[
+          "Single Group Assignment"
+        ],
+        "DesignInterventionModelDescription":[],
+        "DesignMasking":[
+          "None (Open Label)"
+        ],
+        "DesignMaskingDescription":[],
+        "DesignObservationalModel":[],
+        "DesignPrimaryPurpose":[
+          "Diagnostic"
+        ],
+        "DesignTimePerspective":[],
+        "DesignWhoMasked":[]
+      },{
+        "Rank":2,
+        "NCTId":[
+          "NCT04474496"
+        ],
+        "ConditionAncestorTerm":[],
+        "ConditionBrowseBranchAbbrev":[
+          "BC18",
+          "BC19",
+          "All"
+        ],
+        "ConditionBrowseBranchName":[
+          "Nutritional and Metabolic Diseases",
+          "Gland and Hormone Related Diseases",
+          "All Conditions"
+        ],
+        "ConditionBrowseLeafAsFound":[],
+        "ConditionBrowseLeafId":[
+          "M5698",
+          "M5702"
+        ],
+        "ConditionBrowseLeafName":[
+          "Diabetes Mellitus",
+          "Diabetes Mellitus, Type 2"
+        ],
+        "ConditionBrowseLeafRelevance":[
+          "low",
+          "low"
+        ],
+        "ConditionMeshId":[],
+        "ConditionMeshTerm":[],
+        "DelayedPosting":[],
+        "DesignAllocation":[],
+        "DesignInterventionModel":[],
+        "DesignInterventionModelDescription":[],
+        "DesignMasking":[],
+        "DesignMaskingDescription":[],
+        "DesignObservationalModel":[
+          "Other"
+        ],
+        "DesignPrimaryPurpose":[],
+        "DesignTimePerspective":[
+          "Cross-Sectional"
+        ],
+        "DesignWhoMasked":[]
+      },{
+        "Rank":3,
+        "NCTId":[
+          "NCT02801266"
+        ],
+        "ConditionAncestorTerm":[],
+        "ConditionBrowseBranchAbbrev":[],
+        "ConditionBrowseBranchName":[],
+        "ConditionBrowseLeafAsFound":[],
+        "ConditionBrowseLeafId":[],
+        "ConditionBrowseLeafName":[],
+        "ConditionBrowseLeafRelevance":[],
+        "ConditionMeshId":[],
+        "ConditionMeshTerm":[],
+        "DelayedPosting":[],
+        "DesignAllocation":[
+          "Randomized"
+        ],
+        "DesignInterventionModel":[
+          "Parallel Assignment"
+        ],
+        "DesignInterventionModelDescription":[],
+        "DesignMasking":[
+          "Single"
+        ],
+        "DesignMaskingDescription":[],
+        "DesignObservationalModel":[],
+        "DesignPrimaryPurpose":[
+          "Prevention"
+        ],
+        "DesignTimePerspective":[],
+        "DesignWhoMasked":[
+          "Participant"
+        ]
+      },{
+        "Rank":4,
+        "NCTId":[
+          "NCT01599390"
+        ],
+        "ConditionAncestorTerm":[
+          "Orthomyxoviridae Infections",
+          "RNA Virus Infections",
+          "Virus Diseases",
+          "Respiratory Tract Infections",
+          "Respiratory Tract Diseases"
+        ],
+        "ConditionBrowseBranchAbbrev":[
+          "BC02",
+          "BC08",
+          "All",
+          "BC01"
+        ],
+        "ConditionBrowseBranchName":[
+          "Viral Diseases",
+          "Respiratory Tract (Lung and Bronchial) Diseases",
+          "All Conditions",
+          "Bacterial and Fungal Diseases"
+        ],
+        "ConditionBrowseLeafAsFound":[
+          "Influenza"
+        ],
+        "ConditionBrowseLeafId":[
+          "M8878",
+          "M8866",
+          "M4951",
+          "M11485",
+          "M16105",
+          "M13732",
+          "M13561",
+          "M13560"
+        ],
+        "ConditionBrowseLeafName":[
+          "Influenza, Human",
+          "Infection",
+          "Communicable Diseases",
+          "Orthomyxoviridae Infections",
+          "Virus Diseases",
+          "RNA Virus Infections",
+          "Respiratory Tract Infections",
+          "Respiratory Tract Diseases"
+        ],
+        "ConditionBrowseLeafRelevance":[
+          "high",
+          "low",
+          "low",
+          "low",
+          "low",
+          "low",
+          "low",
+          "low"
+        ],
+        "ConditionMeshId":[
+          "D000007251"
+        ],
+        "ConditionMeshTerm":[
+          "Influenza, Human"
+        ],
+        "DelayedPosting":[],
+        "DesignAllocation":[],
+        "DesignInterventionModel":[],
+        "DesignInterventionModelDescription":[],
+        "DesignMasking":[],
+        "DesignMaskingDescription":[],
+        "DesignObservationalModel":[],
+        "DesignPrimaryPurpose":[],
+        "DesignTimePerspective":[
+          "Retrospective"
+        ],
+        "DesignWhoMasked":[]
+      }
+    ]
+  }
+}
