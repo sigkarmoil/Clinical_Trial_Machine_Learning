@@ -1,0 +1,162 @@
+{
+  "StudyFieldsResponse":{
+    "APIVrs":"1.01.02",
+    "DataVrs":"2020:10:29 23:23:51.450",
+    "Expression":"United States",
+    "NStudiesAvail":356282,
+    "NStudiesFound":138977,
+    "MinRank":1,
+    "MaxRank":4,
+    "NStudiesReturned":4,
+    "FieldList":[
+      "NCTId",
+      "AgreementOtherDetails",
+      "AgreementPISponsorEmployee",
+      "AgreementRestrictionType",
+      "AgreementRestrictiveAgreement",
+      "ArmGroupDescription",
+      "ArmGroupInterventionName",
+      "ArmGroupLabel",
+      "ArmGroupType",
+      "AvailIPDComment",
+      "AvailIPDId",
+      "AvailIPDType",
+      "AvailIPDURL",
+      "BaselineCategoryTitle",
+      "BaselineClassDenomCountGroupId",
+      "BaselineClassDenomCountValue",
+      "BaselineClassDenomUnits",
+      "BaselineClassTitle",
+      "BaselineDenomCountGroupId",
+      "BaselineDenomCountValue"
+    ],
+    "StudyFields":[
+      {
+        "Rank":1,
+        "NCTId":[
+          "NCT04371159"
+        ],
+        "AgreementOtherDetails":[],
+        "AgreementPISponsorEmployee":[],
+        "AgreementRestrictionType":[],
+        "AgreementRestrictiveAgreement":[],
+        "ArmGroupDescription":[
+          "Each participant will test their urine sample using the Velieve U.S. device"
+        ],
+        "ArmGroupInterventionName":[
+          "Device: Velieve U.S."
+        ],
+        "ArmGroupLabel":[
+          "Velieve U.S."
+        ],
+        "ArmGroupType":[
+          "Experimental"
+        ],
+        "AvailIPDComment":[],
+        "AvailIPDId":[],
+        "AvailIPDType":[],
+        "AvailIPDURL":[],
+        "BaselineCategoryTitle":[],
+        "BaselineClassDenomCountGroupId":[],
+        "BaselineClassDenomCountValue":[],
+        "BaselineClassDenomUnits":[],
+        "BaselineClassTitle":[],
+        "BaselineDenomCountGroupId":[],
+        "BaselineDenomCountValue":[]
+      },{
+        "Rank":2,
+        "NCTId":[
+          "NCT04474496"
+        ],
+        "AgreementOtherDetails":[],
+        "AgreementPISponsorEmployee":[],
+        "AgreementRestrictionType":[],
+        "AgreementRestrictiveAgreement":[],
+        "ArmGroupDescription":[
+          "Marshallese persons 18 years of age or older residing in the United States"
+        ],
+        "ArmGroupInterventionName":[
+          "Other: Assessing impact of COVID19"
+        ],
+        "ArmGroupLabel":[
+          "Marshallese in the U.S."
+        ],
+        "ArmGroupType":[],
+        "AvailIPDComment":[],
+        "AvailIPDId":[],
+        "AvailIPDType":[],
+        "AvailIPDURL":[],
+        "BaselineCategoryTitle":[],
+        "BaselineClassDenomCountGroupId":[],
+        "BaselineClassDenomCountValue":[],
+        "BaselineClassDenomUnits":[],
+        "BaselineClassTitle":[],
+        "BaselineDenomCountGroupId":[],
+        "BaselineDenomCountValue":[]
+      },{
+        "Rank":3,
+        "NCTId":[
+          "NCT02801266"
+        ],
+        "AgreementOtherDetails":[],
+        "AgreementPISponsorEmployee":[],
+        "AgreementRestrictionType":[],
+        "AgreementRestrictiveAgreement":[],
+        "ArmGroupDescription":[
+          "The intervention arm receives contraceptive counseling from counselors who underwent training on the use of evidence informed birth control counseling.",
+          "The no intervention arm receives contraceptive counseling from counselors who underwent no additional training beyond what they normally receive."
+        ],
+        "ArmGroupInterventionName":[
+          "Behavioral: Evidence informed birth control counseling"
+        ],
+        "ArmGroupLabel":[
+          "Intervention",
+          "No intervention"
+        ],
+        "ArmGroupType":[
+          "Experimental",
+          "No Intervention"
+        ],
+        "AvailIPDComment":[],
+        "AvailIPDId":[],
+        "AvailIPDType":[],
+        "AvailIPDURL":[],
+        "BaselineCategoryTitle":[],
+        "BaselineClassDenomCountGroupId":[],
+        "BaselineClassDenomCountValue":[],
+        "BaselineClassDenomUnits":[],
+        "BaselineClassTitle":[],
+        "BaselineDenomCountGroupId":[],
+        "BaselineDenomCountValue":[]
+      },{
+        "Rank":4,
+        "NCTId":[
+          "NCT01599390"
+        ],
+        "AgreementOtherDetails":[],
+        "AgreementPISponsorEmployee":[],
+        "AgreementRestrictionType":[],
+        "AgreementRestrictiveAgreement":[],
+        "ArmGroupDescription":[],
+        "ArmGroupInterventionName":[
+          "Other: Data collection"
+        ],
+        "ArmGroupLabel":[
+          "Influenza Group"
+        ],
+        "ArmGroupType":[],
+        "AvailIPDComment":[],
+        "AvailIPDId":[],
+        "AvailIPDType":[],
+        "AvailIPDURL":[],
+        "BaselineCategoryTitle":[],
+        "BaselineClassDenomCountGroupId":[],
+        "BaselineClassDenomCountValue":[],
+        "BaselineClassDenomUnits":[],
+        "BaselineClassTitle":[],
+        "BaselineDenomCountGroupId":[],
+        "BaselineDenomCountValue":[]
+      }
+    ]
+  }
+}
