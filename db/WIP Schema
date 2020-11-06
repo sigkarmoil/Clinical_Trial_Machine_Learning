@@ -1,5 +1,4 @@
 
-
 CREATE TABLE tb1 (
 index INT PRIMARY KEY,
 "NCTId" VARCHAR,
@@ -19,6 +18,7 @@ index INT PRIMARY KEY,
 CREATE TABLE tb2 (
 index INT PRIMARY KEY,
 "NCTId" VARCHAR,
+"0" VARCHAR,
 "Sham Comparator" INTEGER,
 "Placebo Comparator" INTEGER,
 "Other" INTEGER,
@@ -30,6 +30,7 @@ index INT PRIMARY KEY,
 CREATE TABLE tb3 (
 index INT PRIMARY KEY,
 "NCTId" VARCHAR,
+"0" VARCHAR,
 "Standard Deviation" INTEGER,
 "Inter-Quartile Range" INTEGER,
 "Full Range" INTEGER
@@ -38,6 +39,7 @@ index INT PRIMARY KEY,
 CREATE TABLE tb4 (
 index INT PRIMARY KEY,
 "NCTId" VARCHAR,
+"0" VARCHAR,
 "Number" INTEGER,
 "Median" INTEGER,
 "Mean" INTEGER,
@@ -52,6 +54,7 @@ index INT PRIMARY KEY,
 CREATE TABLE tb5 (
 index INT PRIMARY KEY,
 "NCTId" VARCHAR,
+"0" VARCHAR,
 "UNKNOWN" INTEGER,
 "OTHER_GOV" INTEGER,
 "OTHER" INTEGER,
@@ -66,6 +69,7 @@ index INT PRIMARY KEY,
 CREATE TABLE tb7 (
 index INT PRIMARY KEY,
 "NCTId" VARCHAR,
+"0" VARCHAR,
 "Rare" INTEGER,
 "BXS" INTEGER,
 "BXM" INTEGER,
@@ -98,6 +102,7 @@ index INT PRIMARY KEY,
 CREATE TABLE tb10 (
 index INT PRIMARY KEY,
 "NCTId" VARCHAR,
+"0" VARCHAR,
 "Randomized" INTEGER,
 "Non-Randomized" INTEGER,
 "N/A" INTEGER
@@ -106,6 +111,7 @@ index INT PRIMARY KEY,
 CREATE TABLE tb11 (
 index INT PRIMARY KEY,
 "NCTId" VARCHAR,
+"0" VARCHAR,
 "Triple" INTEGER,
 "Single" INTEGER,
 "None (Open Label)" INTEGER,
@@ -113,11 +119,10 @@ index INT PRIMARY KEY,
 "Quadruple" INTEGER
 );
 
-
-
 CREATE TABLE tb12 (
 index INT PRIMARY KEY,
 "NCTId" VARCHAR,
+"0" VARCHAR,
 "Diagnostic" INTEGER,
 "Prevention" INTEGER,
 "Treatment" INTEGER,
@@ -133,6 +138,7 @@ index INT PRIMARY KEY,
 CREATE TABLE tb13 (
 index INT PRIMARY KEY,
 "NCTId" VARCHAR,
+"0" VARCHAR,
 "Retrospective" INTEGER,
 "Prospective" INTEGER,
 "Cross-Sectional" INTEGER,
@@ -142,6 +148,7 @@ index INT PRIMARY KEY,
 CREATE TABLE tb14 (
 index INT PRIMARY KEY,
 "NCTId" VARCHAR,
+"N/A" VARCHAR,
 "0-50" INTEGER,
 "51-100" INTEGER,
 "101-200" INTEGER,
@@ -155,6 +162,7 @@ index INT PRIMARY KEY,
 CREATE TABLE tb15 (
 index INT PRIMARY KEY,
 "NCTId" VARCHAR,
+"0" VARCHAR,
 "No" INTEGER,
 "Accepts Healthy Volunteers" INTEGER
 );
@@ -162,6 +170,7 @@ index INT PRIMARY KEY,
 CREATE TABLE tb17 (
 index INT PRIMARY KEY,
 "NCTId" VARCHAR,
+"0" VARCHAR,
 "Repr" INTEGER,
 "All" INTEGER,
 "Hemat" INTEGER,
@@ -220,10 +229,10 @@ index INT PRIMARY KEY,
 "CaS" INTEGER
 );
 
-
 CREATE TABLE tb20 (
 index INT PRIMARY KEY,
 "NCTId" VARCHAR,
+"0" VARCHAR,
 "Device" INTEGER,
 "Other" INTEGER,
 "Behavioral" INTEGER,
@@ -237,12 +246,10 @@ index INT PRIMARY KEY,
 "Combination Product" INTEGER
 );
 
-
-
-
 CREATE TABLE tb21 (
 index INT PRIMARY KEY,
 "NCTId" VARCHAR,
+"0" VARCHAR,
 "Yes" INTEGER,
 "No" INTEGER
 );
@@ -250,6 +257,7 @@ index INT PRIMARY KEY,
 CREATE TABLE tb22 (
 index INT PRIMARY KEY,
 "NCTId" VARCHAR,
+"0" VARCHAR,
 "Yes" INTEGER,
 "No" INTEGER
 );
@@ -257,6 +265,7 @@ index INT PRIMARY KEY,
 CREATE TABLE tb23 (
 index INT PRIMARY KEY,
 "NCTId" VARCHAR,
+"0" VARCHAR,
 "INDUSTRY" INTEGER,
 "OTHER" INTEGER,
 "FED" INTEGER,
@@ -270,6 +279,7 @@ index INT PRIMARY KEY,
 CREATE TABLE tb25 (
 index INT PRIMARY KEY,
 "NCTId" VARCHAR,
+"0" VARCHAR,
 "Yes" INTEGER,
 "No" INTEGER
 );
@@ -277,6 +287,7 @@ index INT PRIMARY KEY,
 CREATE TABLE tb27 (
 index INT PRIMARY KEY,
 "NCTId" VARCHAR,
+"0" VARCHAR,
 "Non-Probability Sample" INTEGER,
 "Probability Sample" INTEGER
 );
@@ -284,6 +295,7 @@ index INT PRIMARY KEY,
 CREATE TABLE tb28 (
 index INT PRIMARY KEY,
 "NCTId" VARCHAR,
+"0" VARCHAR,
 "Older Adult" INTEGER,
 "Child" INTEGER,
 "Adult" INTEGER
@@ -292,11 +304,11 @@ index INT PRIMARY KEY,
 CREATE TABLE tb29 (
 index INT PRIMARY KEY,
 "NCTId" VARCHAR,
+"0" VARCHAR,
 "Interventional" INTEGER,
 "Observational" INTEGER,
 "Expanded Access" INTEGER
 );
-
 
 CREATE TABLE tb00 (
 index INT PRIMARY KEY,
@@ -308,19 +320,5 @@ index INT PRIMARY KEY,
 "Phase_4" INTEGER,
 "Phase_n/a" INTEGER
 );
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
