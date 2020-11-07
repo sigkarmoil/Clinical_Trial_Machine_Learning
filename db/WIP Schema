@@ -37,140 +37,144 @@ index INT PRIMARY KEY,
 );
 
 CREATE TABLE tb4 (
-index INT PRIMARY KEY,
 "NCTId" VARCHAR,
 "0" VARCHAR,
-"Number" INTEGER,
-"Median" INTEGER,
-"Mean" INTEGER,
-"Log Mean" INTEGER,
-"Least Squares Mean" INTEGER,
-"Geometric Mean" INTEGER,
-"Geometric Least Squares Mean" INTEGER,
+"Count of Participants" INTEGER,
 "Count of Units" INTEGER,
-"Count of Participants" INTEGER
+"Geometric Least Squares Mean" INTEGER,
+"Geometric Mean" INTEGER,
+"Least Squares Mean" INTEGER,
+"Log Mean" INTEGER,
+"Mean" INTEGER,
+"Median" INTEGER,
+"Number" INTEGER
 );
+
 
 CREATE TABLE tb5 (
-index INT PRIMARY KEY,
 "NCTId" VARCHAR,
 "0" VARCHAR,
-"UNKNOWN" INTEGER,
-"OTHER_GOV" INTEGER,
-"OTHER" INTEGER,
-"NIH" INTEGER,
-"NETWORK" INTEGER,
-"INDUSTRY" INTEGER,
-"INDIV" INTEGER,
+"AMBIG" INTEGER,
 "FED" INTEGER,
-"AMBIG" INTEGER
+"INDIV" INTEGER,
+"INDUSTRY" INTEGER,
+"NETWORK" INTEGER,
+"NIH" INTEGER,
+"OTHER" INTEGER,
+"OTHER_GOV" INTEGER,
+"UNKNOWN" INTEGER
 );
+
 
 CREATE TABLE tb7 (
-index INT PRIMARY KEY,
 "NCTId" VARCHAR,
 "0" VARCHAR,
-"Rare" INTEGER,
-"BXS" INTEGER,
-"BXM" INTEGER,
-"BC26" INTEGER,
-"BC25" INTEGER,
-"BC24" INTEGER,
-"BC23" INTEGER,
-"BC21" INTEGER,
-"BC20" INTEGER,
-"BC19" INTEGER,
-"BC18" INTEGER,
-"BC17" INTEGER,
-"BC16" INTEGER,
-"BC15" INTEGER,
-"BC14" INTEGER,
-"BC11" INTEGER,
-"BC10" INTEGER,
-"BC09" INTEGER,
-"BC08" INTEGER,
-"BC07" INTEGER,
-"BC06" INTEGER,
-"BC05" INTEGER,
-"BC04" INTEGER,
-"BC03" INTEGER,
-"BC02" INTEGER,
+"All" INTEGER,
 "BC01" INTEGER,
-"All" INTEGER
+"BC02" INTEGER,
+"BC03" INTEGER,
+"BC04" INTEGER,
+"BC05" INTEGER,
+"BC06" INTEGER,
+"BC07" INTEGER,
+"BC08" INTEGER,
+"BC09" INTEGER,
+"BC10" INTEGER,
+"BC11" INTEGER,
+"BC14" INTEGER,
+"BC15" INTEGER,
+"BC16" INTEGER,
+"BC17" INTEGER,
+"BC18" INTEGER,
+"BC19" INTEGER,
+"BC20" INTEGER,
+"BC21" INTEGER,
+"BC23" INTEGER,
+"BC24" INTEGER,
+"BC25" INTEGER,
+"BC26" INTEGER,
+"BXM" INTEGER,
+"BXS" INTEGER,
+"Rare" INTEGER
 );
+
 
 CREATE TABLE tb10 (
-index INT PRIMARY KEY,
 "NCTId" VARCHAR,
 "0" VARCHAR,
-"Randomized" INTEGER,
+"N/A" INTEGER,
 "Non-Randomized" INTEGER,
-"N/A" INTEGER
+"Randomized" INTEGER,
 );
+
 
 CREATE TABLE tb11 (
-index INT PRIMARY KEY,
 "NCTId" VARCHAR,
 "0" VARCHAR,
-"Triple" INTEGER,
-"Single" INTEGER,
-"None (Open Label)" INTEGER,
 "Double" INTEGER,
+"None (Open Label)" INTEGER,
 "Quadruple" INTEGER
+"Single" INTEGER,
+"Triple" INTEGER
 );
+
 
 CREATE TABLE tb12 (
-index INT PRIMARY KEY,
 "NCTId" VARCHAR,
 "0" VARCHAR,
-"Diagnostic" INTEGER,
-"Prevention" INTEGER,
-"Treatment" INTEGER,
-"Screening" INTEGER,
-"Health Services Research" INTEGER,
-"Supportive Care" INTEGER,
 "Basic Science" INTEGER,
-"Other" INTEGER,
-"Educational/Counseling/Training" INTEGER,
 "Device Feasibility" INTEGER
+"Diagnostic" INTEGER,
+"Educational/Counseling/Training" INTEGER,
+"Health Services Research" INTEGER,
+"Other" INTEGER,
+"Prevention" INTEGER,
+"Screening" INTEGER,
+"Supportive Care" INTEGER,
+"Treatment" INTEGER
 );
+
 
 CREATE TABLE tb13 (
-index INT PRIMARY KEY,
 "NCTId" VARCHAR,
 "0" VARCHAR,
-"Retrospective" INTEGER,
-"Prospective" INTEGER,
 "Cross-Sectional" INTEGER,
-"Other" INTEGER
+"Other" INTEGER,
+"Prospective" INTEGER,
+"Retrospective" INTEGER
 );
 
-CREATE TABLE tb14 (
-index INT PRIMARY KEY,
+CREATE TABLE EnrollmentCount_Tb (
 "NCTId" VARCHAR,
-"N/A" VARCHAR,
 "0-50" INTEGER,
 "51-100" INTEGER,
 "101-200" INTEGER,
-"201-400" INTEGER,
-"401-600" INTEGER,
-"601-800" INTEGER,
-"801-1000" INTEGER,
-"1000plus" INTEGER
+"201-500" INTEGER,
+"501-1000" INTEGER,
+"1001-10000" INTEGER,
+"10000plus" INTEGER
 );
 
 CREATE TABLE tb15 (
-index INT PRIMARY KEY,
 "NCTId" VARCHAR,
 "0" VARCHAR,
-"No" INTEGER,
-"Accepts Healthy Volunteers" INTEGER
+"Accepts Healthy Volunteers" INTEGER,
+"No" INTEGER
 );
 
+
+NCTId,0,AA,AAll,ANeo,ARhu,AdjAn,AlcDet,All,AnAg,AnArAg,AnCoag,AnDyAg,AnEm,AnObAg,AnSickAg,AnTuAg,Analg,AntiConv,Antipy,BDCA,BlSubst,CNSDep,CNSSti,CaAg,CaS,ChanBlk,Coag,Derm,Emet,FiAg,Fl,Gast,HB,Hemat,Hypo,Infe,Infl,Lipd,Mi,Micro,MuRelCen,NaAg,NarcAntag,NeuroAg,NiOxD,NootAg,Ot,PhSol,PlAggInh,PsychDr,Rena,Repr,Resp,Urol,VaCoAg,VaDiAg,Vi
+
+
 CREATE TABLE tb17 (
-index INT PRIMARY KEY,
 "NCTId" VARCHAR,
 "0" VARCHAR,
+"AA" INTEGER,
+"AAll" INTEGER,
+"ANeo" INTEGER,
+"ARhu" INTEGER,
+"AdjAn" INTEGER,
+
 "Repr" INTEGER,
 "All" INTEGER,
 "Hemat" INTEGER,
@@ -184,10 +188,7 @@ index INT PRIMARY KEY,
 "CNSDep" INTEGER,
 "NarcAntag" INTEGER,
 "AnCoag" INTEGER,
-"AA" INTEGER,
 "Micro" INTEGER,
-"ANeo" INTEGER,
-"ARhu" INTEGER,
 "Infl" INTEGER,
 "VaDiAg" INTEGER,
 "Derm" INTEGER,
@@ -208,9 +209,7 @@ index INT PRIMARY KEY,
 "PlAggInh" INTEGER,
 "AnSickAg" INTEGER,
 "NaAg" INTEGER,
-"AAll" INTEGER,
 "CaAg" INTEGER,
-"AdjAn" INTEGER,
 "AntiConv" INTEGER,
 "MuRelCen" INTEGER,
 "ChanBlk" INTEGER,
