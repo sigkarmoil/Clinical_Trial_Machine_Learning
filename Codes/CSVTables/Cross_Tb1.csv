@@ -1,4 +1,4 @@
-NCTId,Behavioral,Biological,Combination Product,Device,Diagnostic Test,Dietary Supplement,Drug,Genetic,Other,Procedure,Radiation
+NCTId,tb1_Behavioral,tb1_Biological,tb1_CombinationProduct,tb1_Device,tb1_DiagnosticTest,tb1_DietarySupplement,tb1_Drug,tb1_Genetic,tb1_Other,tb1_Procedure,tb1_Radiation
 NCT00000105,0,1,0,0,0,0,1,0,0,0,0
 NCT00000113,0,0,0,0,0,0,0,0,1,0,0
 NCT00000143,0,0,0,1,0,0,1,0,0,0,0
