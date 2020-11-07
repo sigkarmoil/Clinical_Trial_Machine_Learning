@@ -1,0 +1,322 @@
+
+CREATE TABLE tb1 (
+"NCTId" VARCHAR,
+"tb1_Behavioral" INTEGER,
+"tb1_Biological" INTEGER,
+"tb1_CombinationProduct" INTEGER,
+"tb1_Device" INTEGER,
+"tb1_DiagnosticTest" INTEGER,
+"tb1_DietarySupplement" INTEGER,
+"tb1_Drug" INTEGER,
+"tb1_Genetic" INTEGER,
+"tb1_Other" INTEGER,
+"tb1_Procedure" INTEGER,
+"tb1_Radiation" INTEGER
+);
+
+
+CREATE TABLE tb2 (
+"NCTId" VARCHAR,
+"tb2_0" INTEGER,
+"tb2_ActiveComparator" INTEGER,
+"tb2_Experimental" INTEGER,
+"tb2_NoIntervention" INTEGER,
+"tb2_Other" INTEGER,
+"tb2_PlaceboComparator" INTEGER,
+"tb2_ShamComparator" INTEGER
+);
+
+
+CREATE TABLE tb3 (
+"NCTId" VARCHAR,
+"tb3_0" INTEGER,
+"tb3_FullRange" INTEGER,
+"tb3_InterQuartileRange" INTEGER,
+"tb3_StandardDeviation" INTEGER
+);
+
+
+CREATE TABLE tb4 (
+"NCTId" VARCHAR,
+"tb4_0" INTEGER,
+"tb4_CountofParticipants" INTEGER,
+"tb4_CountofUnits" INTEGER,
+"tb4_GeometricLeastSquaresMean" INTEGER,
+"tb4_GeometricMean" INTEGER,
+"tb4_LeastSquaresMean" INTEGER,
+"tb4_LogMean" INTEGER,
+"tb4_Mean" INTEGER,
+"tb4_Median" INTEGER,
+"tb4_Number" INTEGER
+);
+
+
+CREATE TABLE tb5 (
+"NCTId" VARCHAR,
+"tb5_0" INTEGER,
+"tb5_AMBIG" INTEGER,
+"tb5_FED" INTEGER,
+"tb5_INDIV" INTEGER,
+"tb5_INDUSTRY" INTEGER,
+"tb5_NETWORK" INTEGER,
+"tb5_NIH" INTEGER,
+"tb5_OTHER" INTEGER,
+"tb5_OTHER_GOV" INTEGER,
+"tb5_UNKNOWN" INTEGER
+);
+
+
+
+CREATE TABLE tb7 (
+"NCTId" VARCHAR,
+"tb7_0" INTEGER,
+"tb7_All" INTEGER,
+"tb7_BC01" INTEGER,
+"tb7_BC02" INTEGER,
+"tb7_BC03" INTEGER,
+"tb7_BC04" INTEGER,
+"tb7_BC05" INTEGER,
+"tb7_BC06" INTEGER,
+"tb7_BC07" INTEGER,
+"tb7_BC08" INTEGER,
+"tb7_BC09" INTEGER,
+"tb7_BC10" INTEGER,
+"tb7_BC11" INTEGER,
+"tb7_BC14" INTEGER,
+"tb7_BC15" INTEGER,
+"tb7_BC16" INTEGER,
+"tb7_BC17" INTEGER,
+"tb7_BC18" INTEGER,
+"tb7_BC19" INTEGER,
+"tb7_BC20" INTEGER,
+"tb7_BC21" INTEGER,
+"tb7_BC23" INTEGER,
+"tb7_BC24" INTEGER,
+"tb7_BC25" INTEGER,
+"tb7_BC26" INTEGER,
+"tb7_BXM" INTEGER,
+"tb7_BXS" INTEGER,
+"tb7_Rare" INTEGER
+);
+
+
+CREATE TABLE tb10 (
+"NCTId" VARCHAR,
+"tb10_0" INTEGER,
+"tb10_NA" INTEGER,
+"tb10_NonRandomized" INTEGER,
+"tb10_Randomized" INTEGER,
+);
+
+
+CREATE TABLE tb11 (
+"NCTId" VARCHAR,
+"tb11_0" INTEGER,
+"tb11_Double" INTEGER,
+"tb11_NoneOpenLabel" INTEGER,
+"tb11_Quadruple" INTEGER
+"tb11_Single" INTEGER,
+"tb11_Triple" INTEGER
+);
+
+
+CREATE TABLE tb12 (
+"NCTId" VARCHAR,
+"tb12_0" INTEGER,
+"tb12_BasicScience" INTEGER,
+"tb12_DeviceFeasibility" INTEGER
+"tb12_Diagnostic" INTEGER,
+"tb12_EducationalCounselingTraining" INTEGER,
+"tb12_HealthServicesResearch" INTEGER,
+"tb12_Other" INTEGER,
+"tb12_Prevention" INTEGER,
+"tb12_Screening" INTEGER,
+"tb12_SupportiveCare" INTEGER,
+"tb12_Treatment" INTEGER
+);
+
+
+CREATE TABLE tb13 (
+"NCTId" VARCHAR,
+"tb13_0" INTEGER,
+"tb13_CrossSectional" INTEGER,
+"tb13_Other" INTEGER,
+"tb13_Prospective" INTEGER,
+"tb13_Retrospective" INTEGER
+);
+
+
+CREATE TABLE EnrollmentCount_Tb (
+index INT PRIMARY KEY,
+"NCTId" VARCHAR,
+"0-50" INTEGER,
+"51-100" INTEGER,
+"101-200" INTEGER,
+"201-500" INTEGER,
+"501-1000" INTEGER,
+"1001-10000" INTEGER,
+"10000plus" INTEGER
+);
+
+CREATE TABLE tb15 (
+"NCTId" VARCHAR,
+"tb15_0" VARCHAR,
+"tb15_AcceptsHealthyVolunteers" INTEGER,
+"tb15_NoHealthyVolunteers" INTEGER
+);
+
+
+CREATE TABLE tb17 (
+"NCTId" VARCHAR,
+"tb17_0" INTEGER,
+"AA" INTEGER,
+"AAll" INTEGER,
+"ANeo" INTEGER,
+"ARhu" INTEGER,
+"AdjAn" INTEGER,
+"AlcDet" INTEGER,
+"tb17_All" INTEGER,
+"AnAg" INTEGER,
+"AnArAg" INTEGER,
+"AnCoag" INTEGER,
+"AnDyAg" INTEGER,
+"AnEm" INTEGER,
+"AnObAg" INTEGER,
+"AnSickAg" INTEGER,
+"AnTuAg" INTEGER,
+"Analg" INTEGER,
+"AntiConv" INTEGER,
+"Antipy" INTEGER,
+"BDCA" INTEGER,
+"BlSubst" INTEGER,
+"CNSDep" INTEGER,
+"CNSSti" INTEGER,
+"CaAg" INTEGER,
+"CaS" INTEGER
+"ChanBlk" INTEGER,
+"Coag" INTEGER,
+"Derm" INTEGER,
+"Emet" INTEGER,
+"FiAg" INTEGER,
+"Fl" INTEGER,
+"Gast" INTEGER,
+"HB" INTEGER,
+"Hemat" INTEGER,
+"Hypo" INTEGER,
+"Infe" INTEGER,
+"Infl" INTEGER,
+"Lipd" INTEGER,
+"Mi" INTEGER,
+"Micro" INTEGER,
+"MuRelCen" INTEGER,
+"NaAg" INTEGER,
+"NarcAntag" INTEGER,
+"NeuroAg" INTEGER,
+"NiOxD" INTEGER,
+"NootAg" INTEGER,
+"Ot" INTEGER,
+"PhSol" INTEGER,
+"PlAggInh" INTEGER,
+"PsychDr" INTEGER,
+"Rena" INTEGER,
+"Repr" INTEGER,
+"Resp" INTEGER,
+"Urol" INTEGER,
+"VaCoAg" INTEGER,
+"VaDiAg" INTEGER,
+"Vi" INTEGER
+);
+
+
+CREATE TABLE tb20 (
+"NCTId" VARCHAR,
+"tb20_0" INTEGER,
+"tb20_Behavioral" INTEGER,
+"tb20_Biological" INTEGER,
+"tb20_CombinationProduct" INTEGER,
+"tb20_Device" INTEGER,
+"tb20_DiagnosticTest" INTEGER,
+"tb20_DietarySupplement" INTEGER,
+"tb20_Drug" INTEGER,
+"tb20_Genetic" INTEGER,
+"tb20_Other" INTEGER,
+"tb20_Procedure" INTEGER,
+"tb20_Radiation" INTEGER
+);
+
+CREATE TABLE tb21 (
+"NCTId" VARCHAR,
+"tb21_0" INTEGER,
+"tb21_No" INTEGER,
+"tb21_Yes" INTEGER
+);
+
+
+CREATE TABLE tb22 (
+"NCTId" VARCHAR,
+"tb22_0" INTEGER,
+"tb22_No" INTEGER,
+"tb22_Yes" INTEGER
+);
+
+
+CREATE TABLE tb23 (
+"NCTId" VARCHAR,
+"tb23_0" INTEGER,
+"tb23_FED" INTEGER,
+"tb23_INDIV" INTEGER,
+"tb23_INDUSTRY" INTEGER,
+"tb23_NETWORK" INTEGER,
+"tb23_NIH" INTEGER,
+"tb23_OTHER" INTEGER,
+"tb23_OTHER_GOV" INTEGER,
+"tb23_UNKNOWN" INTEGER
+);
+
+
+CREATE TABLE tb25 (
+"NCTId" VARCHAR,
+"tb25_0" INTEGER,
+"tb25_No" INTEGER,
+"tb25_Yes" INTEGER
+);
+
+
+CREATE TABLE tb27 (
+"NCTId" VARCHAR,
+"tb27_0" INTEGER,
+"tb27_NonProbabilitySample" INTEGER,
+"tb27_ProbabilitySample" INTEGER
+);
+
+
+CREATE TABLE tb28 (
+"NCTId" VARCHAR,
+"tb28_0" INTEGER,
+"tb28_Adult" INTEGER,
+"tb28_Child" INTEGER,
+"tb28_OlderAdult" INTEGER
+);
+
+
+CREATE TABLE tb29 (
+"NCTId" VARCHAR,
+"tb29_0" INTEGER,
+"tb29_ExpandedAccess" INTEGER,
+"tb29_Interventional" INTEGER,
+"tb29_Observational" INTEGER
+);
+
+
+CREATE TABLE tb00 (
+index INT PRIMARY KEY,
+"NCTId" VARCHAR,
+"OverallStatus" VARCHAR,
+"Phase_1" INTEGER,
+"Phase_2" INTEGER,
+"Phase_3" INTEGER,
+"Phase_4" INTEGER,
+"Phase_n/a" INTEGER
+);
+
+

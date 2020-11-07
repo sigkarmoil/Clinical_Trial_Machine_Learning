@@ -1,0 +1,195 @@
+{
+  "StudyFieldsResponse":{
+    "APIVrs":"1.01.02",
+    "DataVrs":"2020:10:29 23:23:51.450",
+    "Expression":"United States",
+    "NStudiesAvail":356282,
+    "NStudiesFound":138977,
+    "MinRank":1,
+    "MaxRank":4,
+    "NStudiesReturned":4,
+    "FieldList":[
+      "NCTId",
+      "BaselineMeasurementUpperLimit",
+      "BaselineMeasurementValue",
+      "BaselinePopulationDescription",
+      "BaselineTypeUnitsAnalyzed",
+      "BioSpecDescription",
+      "BioSpecRetention",
+      "BriefSummary",
+      "BriefTitle",
+      "CentralContactEMail",
+      "CentralContactName",
+      "CentralContactPhone",
+      "CentralContactPhoneExt",
+      "CentralContactRole",
+      "CollaboratorClass",
+      "CollaboratorName",
+      "CompletionDate",
+      "CompletionDateType",
+      "Condition",
+      "ConditionAncestorId"
+    ],
+    "StudyFields":[
+      {
+        "Rank":1,
+        "NCTId":[
+          "NCT04371159"
+        ],
+        "BaselineMeasurementUpperLimit":[],
+        "BaselineMeasurementValue":[],
+        "BaselinePopulationDescription":[],
+        "BaselineTypeUnitsAnalyzed":[],
+        "BioSpecDescription":[],
+        "BioSpecRetention":[],
+        "BriefSummary":[
+          "The Velieve U.S. UTI Urine Analysis Test System (henceforth Velieve U.S.) is composed of a kit and a smartphone application. The device will be provided to the subject in a simulated home-use environment. All subjects will be asked to complete the urine test by following the application guidance,including providing a urine sample and scanning the urine strip after placing it on the Color-Board. The user will also complete a questionnaire to collect information regarding the use of the Velieve U.S. device. Following the usability test performed by the lay user, the subject's urine sample will be tested by the professional user using the comparator device.\n\nThe use of the Velieve U.S. device will be evaluated for identified risks. Additionally, measurable usability criteria for specific, critical steps will be evaluated."
+        ],
+        "BriefTitle":[
+          "A Comparative, Controlled Study to Evaluate the Clinical Accuracy of the Velieve U.S. UTI Urine Analysis Test System"
+        ],
+        "CentralContactEMail":[],
+        "CentralContactName":[],
+        "CentralContactPhone":[],
+        "CentralContactPhoneExt":[],
+        "CentralContactRole":[],
+        "CollaboratorClass":[],
+        "CollaboratorName":[],
+        "CompletionDate":[
+          "May 30, 2020"
+        ],
+        "CompletionDateType":[
+          "Actual"
+        ],
+        "Condition":[
+          "Urinary Tract Infections"
+        ],
+        "ConditionAncestorId":[
+          "D000007239",
+          "D000014570"
+        ]
+      },{
+        "Rank":2,
+        "NCTId":[
+          "NCT04474496"
+        ],
+        "BaselineMeasurementUpperLimit":[],
+        "BaselineMeasurementValue":[],
+        "BaselinePopulationDescription":[],
+        "BaselineTypeUnitsAnalyzed":[],
+        "BioSpecDescription":[],
+        "BioSpecRetention":[],
+        "BriefSummary":[
+          "Up to 2000 Marshallese will complete an online or telephone survey. Among those who complete the survey, 40 participants will be randomly selected and invited to complete an in-depth qualitative interview. This survey will collect data describing the impact of COVID-19 on self-reported Marshallese persons in the United States. Data collected will help describe: 1) risk exposure, 2) knowledge of preventive recommendations, 3) barriers and facilitators to implementing preventative recommendations, 4) barriers and facilitators to COVID-19 testing when appropriate, and self-care behaviors during COVID-19."
+        ],
+        "BriefTitle":[
+          "Impact of COVID-19 on Marshallese Communities in the U.S."
+        ],
+        "CentralContactEMail":[],
+        "CentralContactName":[],
+        "CentralContactPhone":[],
+        "CentralContactPhoneExt":[],
+        "CentralContactRole":[],
+        "CollaboratorClass":[
+          "OTHER"
+        ],
+        "CollaboratorName":[
+          "Patient-Centered Outcomes Research Institute"
+        ],
+        "CompletionDate":[
+          "November 1, 2020"
+        ],
+        "CompletionDateType":[
+          "Anticipated"
+        ],
+        "Condition":[
+          "COVID-19"
+        ],
+        "ConditionAncestorId":[]
+      },{
+        "Rank":3,
+        "NCTId":[
+          "NCT02801266"
+        ],
+        "BaselineMeasurementUpperLimit":[],
+        "BaselineMeasurementValue":[],
+        "BaselinePopulationDescription":[],
+        "BaselineTypeUnitsAnalyzed":[],
+        "BioSpecDescription":[],
+        "BioSpecRetention":[],
+        "BriefSummary":[
+          "This project develops a contraceptive counseling protocol (CCP) grounded in scientific evidence and evaluates the CCP for promoting behaviors conducive to preventing unintended pregnancy among women. The project develops and refines the CCP using focus groups and in-depth interviews with (a) key administrators in the national office of Planned Parenthood (b) key administrators in participating Title X clinics, (c) contraceptive counselors, and (d) clients of the health centers. The CCP uses scientifically grounded principles for guiding effective decision making and provider-client communication. Ten Title X clinics are randomly assigned to one of two conditions (5 clinics per condition): (1) treatment as usual (TAU) or (2) implementation of the CCP. Approximately 150 women are selected for study participation in each clinic, yielding about 1,400 participants (half control and half CCP). Immediately following their counseling session, women complete a computer-administered interview that serves as a fidelity check and permits evaluation of the effects of the CCP on variables associated with counseling satisfaction. All women are re-interviewed by phone 6 months later and 12 months later. The effect of the CCP on method-choice effectiveness, method switching, gaps in protection, and use accuracy are evaluated."
+        ],
+        "BriefTitle":[
+          "Improving Contraceptive Counseling in the United States"
+        ],
+        "CentralContactEMail":[],
+        "CentralContactName":[],
+        "CentralContactPhone":[],
+        "CentralContactPhoneExt":[],
+        "CentralContactRole":[],
+        "CollaboratorClass":[
+          "OTHER"
+        ],
+        "CollaboratorName":[
+          "Planned Parenthood Federation of America"
+        ],
+        "CompletionDate":[
+          "October 2015"
+        ],
+        "CompletionDateType":[
+          "Actual"
+        ],
+        "Condition":[
+          "New Behavioral Protocol",
+          "Treatment as Usual"
+        ],
+        "ConditionAncestorId":[]
+      },{
+        "Rank":4,
+        "NCTId":[
+          "NCT01599390"
+        ],
+        "BaselineMeasurementUpperLimit":[],
+        "BaselineMeasurementValue":[],
+        "BaselinePopulationDescription":[],
+        "BaselineTypeUnitsAnalyzed":[],
+        "BioSpecDescription":[],
+        "BioSpecRetention":[],
+        "BriefSummary":[
+          "The study will assess the burden of severe influenza outcomes by age, risk status, and influenza subtype, in order to create a profile of the burden of influenza-related morbidity and mortality in United States from July 1997 to April 2009."
+        ],
+        "BriefTitle":[
+          "Influenza Burden Assessment in the United States, July1997 - up to April 2009"
+        ],
+        "CentralContactEMail":[],
+        "CentralContactName":[],
+        "CentralContactPhone":[],
+        "CentralContactPhoneExt":[],
+        "CentralContactRole":[],
+        "CollaboratorClass":[
+          "INDUSTRY"
+        ],
+        "CollaboratorName":[
+          "Sage Analytica"
+        ],
+        "CompletionDate":[
+          "February 2013"
+        ],
+        "CompletionDateType":[
+          "Actual"
+        ],
+        "Condition":[
+          "Influenza"
+        ],
+        "ConditionAncestorId":[
+          "D000009976",
+          "D000012327",
+          "D000014777",
+          "D000012141",
+          "D000012140"
+        ]
+      }
+    ]
+  }
+}
