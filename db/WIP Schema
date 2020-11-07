@@ -1,319 +1,317 @@
 
 CREATE TABLE tb1 (
-index INT PRIMARY KEY,
 "NCTId" VARCHAR,
-"Radiation" INTEGER,
-"Procedure" INTEGER,
-"Genetic" INTEGER,
-"Other" INTEGER,
-"Drug" INTEGER,
-"Dietary" INTEGER,
-"Diagnostic" INTEGER,
-"Device" INTEGER,
-"Combination" INTEGER,
-"Biological" INTEGER,
-"Behavioral" INTEGER
+"tb1_Behavioral" INTEGER,
+"tb1_Biological" INTEGER,
+"tb1_CombinationProduct" INTEGER,
+"tb1_Device" INTEGER,
+"tb1_DiagnosticTest" INTEGER,
+"tb1_DietarySupplement" INTEGER,
+"tb1_Drug" INTEGER,
+"tb1_Genetic" INTEGER,
+"tb1_Other" INTEGER,
+"tb1_Procedure" INTEGER,
+"tb1_Radiation" INTEGER
 );
+
 
 CREATE TABLE tb2 (
-index INT PRIMARY KEY,
 "NCTId" VARCHAR,
-"0" VARCHAR,
-"Sham Comparator" INTEGER,
-"Placebo Comparator" INTEGER,
-"Other" INTEGER,
-"No Intervention" INTEGER,
-"Experimental" INTEGER,
-"Active Comparator" INTEGER
+"tb2_0" INTEGER,
+"tb2_ActiveComparator" INTEGER,
+"tb2_Experimental" INTEGER,
+"tb2_NoIntervention" INTEGER,
+"tb2_Other" INTEGER,
+"tb2_PlaceboComparator" INTEGER,
+"tb2_ShamComparator" INTEGER
 );
+
 
 CREATE TABLE tb3 (
-index INT PRIMARY KEY,
 "NCTId" VARCHAR,
-"0" VARCHAR,
-"Standard Deviation" INTEGER,
-"Inter-Quartile Range" INTEGER,
-"Full Range" INTEGER
+"tb3_0" INTEGER,
+"tb3_FullRange" INTEGER,
+"tb3_InterQuartileRange" INTEGER,
+"tb3_StandardDeviation" INTEGER
 );
+
 
 CREATE TABLE tb4 (
-index INT PRIMARY KEY,
 "NCTId" VARCHAR,
-"0" VARCHAR,
-"Number" INTEGER,
-"Median" INTEGER,
-"Mean" INTEGER,
-"Log Mean" INTEGER,
-"Least Squares Mean" INTEGER,
-"Geometric Mean" INTEGER,
-"Geometric Least Squares Mean" INTEGER,
-"Count of Units" INTEGER,
-"Count of Participants" INTEGER
+"tb4_0" INTEGER,
+"tb4_CountofParticipants" INTEGER,
+"tb4_CountofUnits" INTEGER,
+"tb4_GeometricLeastSquaresMean" INTEGER,
+"tb4_GeometricMean" INTEGER,
+"tb4_LeastSquaresMean" INTEGER,
+"tb4_LogMean" INTEGER,
+"tb4_Mean" INTEGER,
+"tb4_Median" INTEGER,
+"tb4_Number" INTEGER
 );
+
 
 CREATE TABLE tb5 (
-index INT PRIMARY KEY,
 "NCTId" VARCHAR,
-"0" VARCHAR,
-"UNKNOWN" INTEGER,
-"OTHER_GOV" INTEGER,
-"OTHER" INTEGER,
-"NIH" INTEGER,
-"NETWORK" INTEGER,
-"INDUSTRY" INTEGER,
-"INDIV" INTEGER,
-"FED" INTEGER,
-"AMBIG" INTEGER
+"tb5_0" INTEGER,
+"tb5_AMBIG" INTEGER,
+"tb5_FED" INTEGER,
+"tb5_INDIV" INTEGER,
+"tb5_INDUSTRY" INTEGER,
+"tb5_NETWORK" INTEGER,
+"tb5_NIH" INTEGER,
+"tb5_OTHER" INTEGER,
+"tb5_OTHER_GOV" INTEGER,
+"tb5_UNKNOWN" INTEGER
 );
+
+
 
 CREATE TABLE tb7 (
-index INT PRIMARY KEY,
 "NCTId" VARCHAR,
-"0" VARCHAR,
-"Rare" INTEGER,
-"BXS" INTEGER,
-"BXM" INTEGER,
-"BC26" INTEGER,
-"BC25" INTEGER,
-"BC24" INTEGER,
-"BC23" INTEGER,
-"BC21" INTEGER,
-"BC20" INTEGER,
-"BC19" INTEGER,
-"BC18" INTEGER,
-"BC17" INTEGER,
-"BC16" INTEGER,
-"BC15" INTEGER,
-"BC14" INTEGER,
-"BC11" INTEGER,
-"BC10" INTEGER,
-"BC09" INTEGER,
-"BC08" INTEGER,
-"BC07" INTEGER,
-"BC06" INTEGER,
-"BC05" INTEGER,
-"BC04" INTEGER,
-"BC03" INTEGER,
-"BC02" INTEGER,
-"BC01" INTEGER,
-"All" INTEGER
+"tb7_0" INTEGER,
+"tb7_All" INTEGER,
+"tb7_BC01" INTEGER,
+"tb7_BC02" INTEGER,
+"tb7_BC03" INTEGER,
+"tb7_BC04" INTEGER,
+"tb7_BC05" INTEGER,
+"tb7_BC06" INTEGER,
+"tb7_BC07" INTEGER,
+"tb7_BC08" INTEGER,
+"tb7_BC09" INTEGER,
+"tb7_BC10" INTEGER,
+"tb7_BC11" INTEGER,
+"tb7_BC14" INTEGER,
+"tb7_BC15" INTEGER,
+"tb7_BC16" INTEGER,
+"tb7_BC17" INTEGER,
+"tb7_BC18" INTEGER,
+"tb7_BC19" INTEGER,
+"tb7_BC20" INTEGER,
+"tb7_BC21" INTEGER,
+"tb7_BC23" INTEGER,
+"tb7_BC24" INTEGER,
+"tb7_BC25" INTEGER,
+"tb7_BC26" INTEGER,
+"tb7_BXM" INTEGER,
+"tb7_BXS" INTEGER,
+"tb7_Rare" INTEGER
 );
+
 
 CREATE TABLE tb10 (
-index INT PRIMARY KEY,
 "NCTId" VARCHAR,
-"0" VARCHAR,
-"Randomized" INTEGER,
-"Non-Randomized" INTEGER,
-"N/A" INTEGER
+"tb10_0" INTEGER,
+"tb10_NA" INTEGER,
+"tb10_NonRandomized" INTEGER,
+"tb10_Randomized" INTEGER,
 );
+
 
 CREATE TABLE tb11 (
-index INT PRIMARY KEY,
 "NCTId" VARCHAR,
-"0" VARCHAR,
-"Triple" INTEGER,
-"Single" INTEGER,
-"None (Open Label)" INTEGER,
-"Double" INTEGER,
-"Quadruple" INTEGER
+"tb11_0" INTEGER,
+"tb11_Double" INTEGER,
+"tb11_NoneOpenLabel" INTEGER,
+"tb11_Quadruple" INTEGER
+"tb11_Single" INTEGER,
+"tb11_Triple" INTEGER
 );
+
 
 CREATE TABLE tb12 (
-index INT PRIMARY KEY,
 "NCTId" VARCHAR,
-"0" VARCHAR,
-"Diagnostic" INTEGER,
-"Prevention" INTEGER,
-"Treatment" INTEGER,
-"Screening" INTEGER,
-"Health Services Research" INTEGER,
-"Supportive Care" INTEGER,
-"Basic Science" INTEGER,
-"Other" INTEGER,
-"Educational/Counseling/Training" INTEGER,
-"Device Feasibility" INTEGER
+"tb12_0" INTEGER,
+"tb12_BasicScience" INTEGER,
+"tb12_DeviceFeasibility" INTEGER
+"tb12_Diagnostic" INTEGER,
+"tb12_EducationalCounselingTraining" INTEGER,
+"tb12_HealthServicesResearch" INTEGER,
+"tb12_Other" INTEGER,
+"tb12_Prevention" INTEGER,
+"tb12_Screening" INTEGER,
+"tb12_SupportiveCare" INTEGER,
+"tb12_Treatment" INTEGER
 );
+
 
 CREATE TABLE tb13 (
-index INT PRIMARY KEY,
 "NCTId" VARCHAR,
-"0" VARCHAR,
-"Retrospective" INTEGER,
-"Prospective" INTEGER,
-"Cross-Sectional" INTEGER,
-"Other" INTEGER
+"tb13_0" INTEGER,
+"tb13_CrossSectional" INTEGER,
+"tb13_Other" INTEGER,
+"tb13_Prospective" INTEGER,
+"tb13_Retrospective" INTEGER
 );
 
-CREATE TABLE tb14 (
+
+CREATE TABLE EnrollmentCount_Tb (
 index INT PRIMARY KEY,
 "NCTId" VARCHAR,
-"N/A" VARCHAR,
 "0-50" INTEGER,
 "51-100" INTEGER,
 "101-200" INTEGER,
-"201-400" INTEGER,
-"401-600" INTEGER,
-"601-800" INTEGER,
-"801-1000" INTEGER,
-"1000plus" INTEGER
+"201-500" INTEGER,
+"501-1000" INTEGER,
+"1001-10000" INTEGER,
+"10000plus" INTEGER
 );
 
 CREATE TABLE tb15 (
-index INT PRIMARY KEY,
 "NCTId" VARCHAR,
-"0" VARCHAR,
-"No" INTEGER,
-"Accepts Healthy Volunteers" INTEGER
+"tb15_0" VARCHAR,
+"tb15_AcceptsHealthyVolunteers" INTEGER,
+"tb15_NoHealthyVolunteers" INTEGER
 );
+
 
 CREATE TABLE tb17 (
-index INT PRIMARY KEY,
 "NCTId" VARCHAR,
-"0" VARCHAR,
-"Repr" INTEGER,
-"All" INTEGER,
-"Hemat" INTEGER,
-"Infe" INTEGER,
-"Gast" INTEGER,
-"Resp" INTEGER,
-"Lipd" INTEGER,
-"HB" INTEGER,
-"Hypo" INTEGER,
-"Analg" INTEGER,
-"CNSDep" INTEGER,
-"NarcAntag" INTEGER,
-"AnCoag" INTEGER,
+"tb17_0" INTEGER,
 "AA" INTEGER,
-"Micro" INTEGER,
+"AAll" INTEGER,
 "ANeo" INTEGER,
 "ARhu" INTEGER,
-"Infl" INTEGER,
-"VaDiAg" INTEGER,
-"Derm" INTEGER,
+"AdjAn" INTEGER,
+"AlcDet" INTEGER,
+"tb17_All" INTEGER,
 "AnAg" INTEGER,
 "AnArAg" INTEGER,
-"CNSSti" INTEGER,
-"PhSol" INTEGER,
-"VaCoAg" INTEGER,
-"AnEm" INTEGER,
-"Vi" INTEGER,
-"Ot" INTEGER,
-"Coag" INTEGER,
+"AnCoag" INTEGER,
 "AnDyAg" INTEGER,
-"PsychDr" INTEGER,
-"BDCA" INTEGER,
-"Antipy" INTEGER,
-"FiAg" INTEGER,
-"PlAggInh" INTEGER,
-"AnSickAg" INTEGER,
-"NaAg" INTEGER,
-"AAll" INTEGER,
-"CaAg" INTEGER,
-"AdjAn" INTEGER,
-"AntiConv" INTEGER,
-"MuRelCen" INTEGER,
-"ChanBlk" INTEGER,
+"AnEm" INTEGER,
 "AnObAg" INTEGER,
-"NeuroAg" INTEGER,
-"Urol" INTEGER,
-"BlSubst" INTEGER,
-"NootAg" INTEGER,
-"Rena" INTEGER,
+"AnSickAg" INTEGER,
 "AnTuAg" INTEGER,
-"Mi" INTEGER,
-"AlcDet" INTEGER,
-"Emet" INTEGER,
-"Fl" INTEGER,
-"NiOxD" INTEGER,
+"Analg" INTEGER,
+"AntiConv" INTEGER,
+"Antipy" INTEGER,
+"BDCA" INTEGER,
+"BlSubst" INTEGER,
+"CNSDep" INTEGER,
+"CNSSti" INTEGER,
+"CaAg" INTEGER,
 "CaS" INTEGER
+"ChanBlk" INTEGER,
+"Coag" INTEGER,
+"Derm" INTEGER,
+"Emet" INTEGER,
+"FiAg" INTEGER,
+"Fl" INTEGER,
+"Gast" INTEGER,
+"HB" INTEGER,
+"Hemat" INTEGER,
+"Hypo" INTEGER,
+"Infe" INTEGER,
+"Infl" INTEGER,
+"Lipd" INTEGER,
+"Mi" INTEGER,
+"Micro" INTEGER,
+"MuRelCen" INTEGER,
+"NaAg" INTEGER,
+"NarcAntag" INTEGER,
+"NeuroAg" INTEGER,
+"NiOxD" INTEGER,
+"NootAg" INTEGER,
+"Ot" INTEGER,
+"PhSol" INTEGER,
+"PlAggInh" INTEGER,
+"PsychDr" INTEGER,
+"Rena" INTEGER,
+"Repr" INTEGER,
+"Resp" INTEGER,
+"Urol" INTEGER,
+"VaCoAg" INTEGER,
+"VaDiAg" INTEGER,
+"Vi" INTEGER
 );
 
+
 CREATE TABLE tb20 (
-index INT PRIMARY KEY,
 "NCTId" VARCHAR,
-"0" VARCHAR,
-"Device" INTEGER,
-"Other" INTEGER,
-"Behavioral" INTEGER,
-"Biological" INTEGER,
-"Drug" INTEGER,
-"Procedure" INTEGER,
-"Dietary Supplement" INTEGER,
-"Diagnostic Test" INTEGER,
-"Genetic" INTEGER,
-"Radiation" INTEGER,
-"Combination Product" INTEGER
+"tb20_0" INTEGER,
+"tb20_Behavioral" INTEGER,
+"tb20_Biological" INTEGER,
+"tb20_CombinationProduct" INTEGER,
+"tb20_Device" INTEGER,
+"tb20_DiagnosticTest" INTEGER,
+"tb20_DietarySupplement" INTEGER,
+"tb20_Drug" INTEGER,
+"tb20_Genetic" INTEGER,
+"tb20_Other" INTEGER,
+"tb20_Procedure" INTEGER,
+"tb20_Radiation" INTEGER
 );
 
 CREATE TABLE tb21 (
-index INT PRIMARY KEY,
 "NCTId" VARCHAR,
-"0" VARCHAR,
-"Yes" INTEGER,
-"No" INTEGER
+"tb21_0" INTEGER,
+"tb21_No" INTEGER,
+"tb21_Yes" INTEGER
 );
+
 
 CREATE TABLE tb22 (
-index INT PRIMARY KEY,
 "NCTId" VARCHAR,
-"0" VARCHAR,
-"Yes" INTEGER,
-"No" INTEGER
+"tb22_0" INTEGER,
+"tb22_No" INTEGER,
+"tb22_Yes" INTEGER
 );
+
 
 CREATE TABLE tb23 (
-index INT PRIMARY KEY,
 "NCTId" VARCHAR,
-"0" VARCHAR,
-"INDUSTRY" INTEGER,
-"OTHER" INTEGER,
-"FED" INTEGER,
-"NIH" INTEGER,
-"NETWORK" INTEGER,
-"INDIV" INTEGER,
-"OTHER_GOV" INTEGER,
-"UNKNOWN" INTEGER
+"tb23_0" INTEGER,
+"tb23_FED" INTEGER,
+"tb23_INDIV" INTEGER,
+"tb23_INDUSTRY" INTEGER,
+"tb23_NETWORK" INTEGER,
+"tb23_NIH" INTEGER,
+"tb23_OTHER" INTEGER,
+"tb23_OTHER_GOV" INTEGER,
+"tb23_UNKNOWN" INTEGER
 );
+
 
 CREATE TABLE tb25 (
-index INT PRIMARY KEY,
 "NCTId" VARCHAR,
-"0" VARCHAR,
-"Yes" INTEGER,
-"No" INTEGER
+"tb25_0" INTEGER,
+"tb25_No" INTEGER,
+"tb25_Yes" INTEGER
 );
+
 
 CREATE TABLE tb27 (
-index INT PRIMARY KEY,
 "NCTId" VARCHAR,
-"0" VARCHAR,
-"Non-Probability Sample" INTEGER,
-"Probability Sample" INTEGER
+"tb27_0" INTEGER,
+"tb27_NonProbabilitySample" INTEGER,
+"tb27_ProbabilitySample" INTEGER
 );
+
 
 CREATE TABLE tb28 (
-index INT PRIMARY KEY,
 "NCTId" VARCHAR,
-"0" VARCHAR,
-"Older Adult" INTEGER,
-"Child" INTEGER,
-"Adult" INTEGER
+"tb28_0" INTEGER,
+"tb28_Adult" INTEGER,
+"tb28_Child" INTEGER,
+"tb28_OlderAdult" INTEGER
 );
 
+
 CREATE TABLE tb29 (
-index INT PRIMARY KEY,
 "NCTId" VARCHAR,
-"0" VARCHAR,
-"Interventional" INTEGER,
-"Observational" INTEGER,
-"Expanded Access" INTEGER
+"tb29_0" INTEGER,
+"tb29_ExpandedAccess" INTEGER,
+"tb29_Interventional" INTEGER,
+"tb29_Observational" INTEGER
 );
+
 
 CREATE TABLE tb00 (
 index INT PRIMARY KEY,
 "NCTId" VARCHAR,
-"OverallStatus" INTEGER,
+"OverallStatus" VARCHAR,
 "Phase_1" INTEGER,
 "Phase_2" INTEGER,
 "Phase_3" INTEGER,
