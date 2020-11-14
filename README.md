@@ -11,11 +11,14 @@ November 2020
 ### Project description / outline:<br>
 The goal of this project is to identify factors in clinical trials that are predictive of a trial’s probability to succeed. There are many factors that contribute to a trial’ssuccess or failure, including patient selection, trial design, monitoring technique,duration, and study end points.  These are all factors that are captured, reported, and accessible for analysis and modeling. We propose to survey all US and Canadian clinical trials data between 1979 to 2020 to identify the most predictive factors for trial success and failure based on completed trials. There are over 300 data points for each clinical trial that can be featurized and used in predictive modeling. The output of this project is the development of an algorithm that can predict whether an active trial will succeed or fail, where success is defined as trial completion and progression to the next phase (eg. Phase I study completion and Phase II initialization). <br>
 <br>
+
 ### Data sources:<br>
-- ClinicalTrials.govhttps://clinicaltrials.gov/<br>
+ClinicalTrials.govhttps://clinicaltrials.gov/<br>
 <br>
+
 ### Application Schema:<br>
-<br><br>
+<br>
+
 ### Draft of tasks:<br>
 - ETL
 - Extraction: Python API call; house in AWS S3, RDS
